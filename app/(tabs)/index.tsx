@@ -1,4 +1,6 @@
 import { Text, View } from "react-native";
+import { Colors } from '@/constants/Colors';
+import { useColorScheme } from '@/hooks/useColorScheme';
 
 export default function Index() {
   return (
